@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Escolar</title>
+</head>
+<body>
+    <h1>9º Série A - Prova de Conhecimentos Gerais</h1>
+    <p>Responda todas as questões, utilize rascunhos em papel para realizar cálculos. Os rascunhos serão recolhidos pela professora após a quarentena.</p>
+    
+    <fieldset> <!-- Bloco - Informacoes Aluno -->
+        <legend><h2>Informações do Aluno</h2></legend>
+        <input type="text" name="" placeholder="Digite seu nome">
+        <br><br>
+
+        <input type="number" name="" placeholder="Nº de pessoas no grupo">
+        <br><br>
+
+        <input type="text" name="" placeholder="E-mail">
+        <br><br>
+
+        <label for="dtaNascimento">Data de Nascimento</label><br>
+        <input type="date" name="dtaNascimento" placeholder="Insira sua data de nascimento">
+        <br><br>
+
+        <label for="">Digite uma senha para acessar os dados da pesquisa posteriormente:</label><br>
+        <input type="password" name="" placeholder="Digite uma senha">
+    </fieldset>
+    <br>
+
+    <fieldset> <!--Matematica-->
+        <legend><h2>Matemática</h2></legend>
+
+        <img src="math.jpg" alt="" width="50%"><br>
+        
+        <label for="resultado1">3 + 3 = </label>
+        <input type="text" name="resultado1"><br><br>
+
+        <label for="resultado2">10 / 3 = </label>
+        <input type="text" name="resultado2"><br><br>
+
+        <label for="resultado3">5 * 2 = </label>
+        <input type="text" name="resultado3"><br><br>
+
+        <label for="resultado4">Essa tarefa foi difícil?</label>
+        <input type="range" name="resultado4">
+    </fieldset>
+    <br>
+
+    <fieldset> <!--Portugues-->
+        <legend><h2>Português</h2></legend>
+        <img src="opinion.jpg" alt="" width="50%"><br>
+
+        <label for="">Na frase 'Eu sou bonito', o sujeito é: </label><br>
+        <input type="radio">
+        <label for="">Johnny Depp</label><br>
+        <input type="radio">
+        <label for="">Diana da padaria</label><br>
+        <input type="radio">
+        <label for="">Você mesmo</label><br>
+        <input type="radio">
+        <label for="">Meus pais</label><br>
+        <input type="radio">
+        <label for="">Eu</label><br>
+        <br><br>
+
+        <label for="">Complete a frase: "Filho de peixe, peixinho ___"</label><br>
+        <input type="checkbox">
+        <label for="">é</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">tem</label><br>
+        <input type="checkbox">
+        <label for="">verde</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">bonito</label><br>
+        <input type="checkbox">
+        <label for="">maria</label><br>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend><h2>Dê uma nota para a professora</h2></legend>
+
+        <label for="">A professora explicou bem a matéria?</label>
+        <input type="range" name="" id="SatisfacaoGeral" min="1" max="100" value="50" class="SatisfacaoGeral">
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend><h2>Opiniões</h2></legend>
+        <label>Digite a sua opinião sobre a disciplina</label><br>
+        <textarea name="" id="" cols="80" rows="7"></textarea>
+        <br><br>
+    </fieldset>
+    <br>
+
+    <input type="submit" name="submit" value="Gravar respostas">
+    <br>
+</body>
+</html>
